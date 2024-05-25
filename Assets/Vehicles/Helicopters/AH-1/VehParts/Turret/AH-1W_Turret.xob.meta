@@ -1,0 +1,68 @@
+MetaFileClass {
+ Name "{B85647A3651AD424}Assets/Vehicles/Helicopters/AH-1/VehParts/Turret/AH-1W_Turret.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{6090437FC0E3ACE5}" {
+     SourceMaterial "ah1w_super_cobra"
+     AssignedMaterial "{18AA0CE4815340FA}Assets/Vehicles/Helicopters/AH-1/Data/ah1w_super_cobra.emat"
+    }
+   }
+   MeshParams {
+    MeshParam NTS {
+    }
+    MeshParam gun_turret {
+    }
+    MeshParam gun_turret_body {
+    }
+    MeshParam "body_LOD0.001" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_gun_turret {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{962A3D033BAD4606}Common/Materials/Game/Metal/metal_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_gun_turret_body {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{962A3D033BAD4606}Common/Materials/Game/Metal/metal_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_NTS {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{962A3D033BAD4606}Common/Materials/Game/Metal/metal_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6090437FC0EDB23B}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6090437FC0EDB2C6}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6090437FC0EDB2E0}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6090437FC0EDB305}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6090437FC0EDB318}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

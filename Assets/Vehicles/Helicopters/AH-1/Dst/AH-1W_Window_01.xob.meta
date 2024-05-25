@@ -1,0 +1,85 @@
+MetaFileClass {
+ Name "{26EE18D6DF86984E}Assets/Vehicles/Helicopters/AH-1/Dst/AH-1W_Window_01.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6090437FC39F59B5}" {
+     SourceMaterial "glass"
+     AssignedMaterial "{2F0F2CE555AC8FC4}Assets/Vehicles/Helicopters/AH-1/Data/glass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam door_01_glass {
+    }
+    MeshParam door_02_glass {
+    }
+    MeshParam glass_01 {
+    }
+    MeshParam glass_02 {
+    }
+    MeshParam glass_03 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_door_01_glass {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{9CF9352E79A84A2A}Common/Materials/Game/Glass/glass_laminated_4mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_door_02_glass {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{9CF9352E79A84A2A}Common/Materials/Game/Glass/glass_laminated_4mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_glass_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{9CF9352E79A84A2A}Common/Materials/Game/Glass/glass_laminated_4mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_glass_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{9CF9352E79A84A2A}Common/Materials/Game/Glass/glass_laminated_4mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_glass_03 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{9CF9352E79A84A2A}Common/Materials/Game/Glass/glass_laminated_4mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6090437FC39AEDF2}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6090437FC39AEEBB}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6090437FC39AEEE7}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6090437FC39AEF04}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6090437FC39AEF21}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

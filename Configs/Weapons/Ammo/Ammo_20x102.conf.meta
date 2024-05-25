@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{63FE1AF2E4A81EC4}Configs/Weapons/Ammo/Ammo_20x102.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

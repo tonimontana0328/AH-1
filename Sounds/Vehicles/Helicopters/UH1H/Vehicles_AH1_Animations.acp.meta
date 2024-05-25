@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A0EFD0C7535245BA}Sounds/Vehicles/Helicopters/UH1H/Vehicles_AH1_Animations.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

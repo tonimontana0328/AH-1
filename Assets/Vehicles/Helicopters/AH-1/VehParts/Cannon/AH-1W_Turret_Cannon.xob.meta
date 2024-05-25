@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{D9F4BC7334168844}Assets/Vehicles/Helicopters/AH-1/VehParts/Cannon/AH-1W_Turret_Cannon.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{6090789EEAFADB7B}" {
+     SourceMaterial "ah1w_super_cobra"
+     AssignedMaterial "{18AA0CE4815340FA}Assets/Vehicles/Helicopters/AH-1/Data/ah1w_super_cobra.emat"
+    }
+   }
+   MeshParams {
+    MeshParam gun_turret_barrels {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCL_Gun {
+     LayerPreset "VehicleFireView"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6090789EEAC071AA}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6090789EEAC07275}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6090789EEAC0729C}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6090789EEAC072B0}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6090789EEAC0730D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

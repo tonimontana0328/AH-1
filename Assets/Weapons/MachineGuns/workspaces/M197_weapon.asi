@@ -1,0 +1,11 @@
+AnimSetInstanceSource "{609D7D01492CED96}" {
+ Template "{4EB3147FA1ED89BD}Assets/Weapons/MachineGuns/workspaces/M249.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Reload.Erc.Fire" {
+   Resource "{87A7512BB7DC1A64}Assets/Vehicles/Helicopters/AH-1/anim/Armature_001Action.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Fire" {
+   Resource "{87A7512BB7DC1A64}Assets/Vehicles/Helicopters/AH-1/anim/Armature_001Action.anm"
+  }
+ }
+}

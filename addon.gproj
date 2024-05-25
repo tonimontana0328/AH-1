@@ -1,0 +1,20 @@
+GameProject {
+ ID "AH1"
+ GUID "60902E4EEC2C00FF"
+ TITLE "AH-1"
+ Dependencies {
+  "5E389BB9F58B79A6" "58D0FB3206B6F859" "5F1EE615E7AE3106"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

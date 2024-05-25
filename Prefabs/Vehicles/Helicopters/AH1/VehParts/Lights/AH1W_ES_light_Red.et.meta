@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CADF5895C4308B9F}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Lights/AH1W_ES_light_Red.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

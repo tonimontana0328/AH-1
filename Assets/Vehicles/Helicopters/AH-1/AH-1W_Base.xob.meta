@@ -1,0 +1,184 @@
+MetaFileClass {
+ Name "{7DB35122E61CDD92}Assets/Vehicles/Helicopters/AH-1/AH-1W_Base.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{609043796F6E18DA}" {
+     SourceMaterial "ah1w_super_cobra"
+     AssignedMaterial "{18AA0CE4815340FA}Assets/Vehicles/Helicopters/AH-1/Data/ah1w_super_cobra.emat"
+    }
+    MaterialAssignClass "{609043796F6E195B}" {
+     SourceMaterial "glass"
+     AssignedMaterial "{2F0F2CE555AC8FC4}Assets/Vehicles/Helicopters/AH-1/Data/glass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam body {
+    }
+    MeshParam door_01 {
+    }
+    MeshParam door_02 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_DriveShaft_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{BAD01E74E21D5031}Common/Materials/Game/VehicleParts/drive_shaft.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_FuelTank_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{2E934203697527B6}Common/Materials/Game/VehicleParts/fuel_tank.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_FuelTank_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{2E934203697527B6}Common/Materials/Game/VehicleParts/fuel_tank.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MT_SkidL {
+     LayerPreset "MineTriggerComplex"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MT_SkidR {
+     LayerPreset "MineTriggerComplex"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Transmission {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{427C6C77966E41CB}Common/Materials/Game/VehicleParts/differential.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VS_Pylons {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VS_Tail {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_DriveShaft_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{BAD01E74E21D5031}Common/Materials/Game/VehicleParts/drive_shaft.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_EngineL {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{0B9EB7B9C8DCC6A5}Common/Materials/Game/VehicleParts/engine.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_EngineR {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{0B9EB7B9C8DCC6A5}Common/Materials/Game/VehicleParts/engine.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VS_Body {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VS_Engines {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VS_Tail {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Body {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{962A3D033BAD4606}Common/Materials/Game/Metal/metal_3mm_min.gamemat"
+      "{33CE4B76B338E44F}Common/Materials/Game/Armor/armor_20mm.gamemat"
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_door_01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{962A3D033BAD4606}Common/Materials/Game/Metal/metal_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_door_02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{962A3D033BAD4606}Common/Materials/Game/Metal/metal_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{609043796F58CB59}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{609043796F58F660}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{609043796F58F744}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{609043796F58F78E}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{609043796F58F7CE}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

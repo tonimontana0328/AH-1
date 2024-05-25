@@ -1,0 +1,8 @@
+GameEntity : "{33DD969AE521BD7C}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Lights/AH1W_ES_light_base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{F0489A39C150711A}Assets/Vehicles/Helicopters/AH-1/Lights/AH-1W_SlimeLights.xob"
+  }
+ }
+}

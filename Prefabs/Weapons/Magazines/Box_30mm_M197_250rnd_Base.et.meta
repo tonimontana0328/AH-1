@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B9E58B8BCBAFD0DB}Prefabs/Weapons/Magazines/Box_30mm_M197_750rnd_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

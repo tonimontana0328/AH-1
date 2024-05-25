@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{41AE8CFFCC5DECBD}Assets/Vehicles/Helicopters/AH-1/Lights/Data/ah1w_super_cobra_lights.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

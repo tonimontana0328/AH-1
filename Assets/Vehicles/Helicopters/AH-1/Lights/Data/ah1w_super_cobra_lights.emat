@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Emissive 1 1 1 0
+ BCRMap "{F1BB73B6ED80D4FC}Assets/Vehicles/Helicopters/AH-1/Data/Textures/ah-1w_super_cobra_base_BCR.edds"
+ NMOMap "{C963C82434F78662}Assets/Vehicles/Helicopters/AH-1/Data/Textures/ah-1w_super_cobra_base_NMO.edds"
+}

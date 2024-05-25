@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6BE145A7BC3EB212}Assets/Vehicles/Helicopters/AH-1/ProcAnims/turret_AH-1.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

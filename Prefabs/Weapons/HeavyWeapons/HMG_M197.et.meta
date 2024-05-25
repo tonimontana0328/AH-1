@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4E0760A60AC34AB3}Prefabs/Weapons/HeavyWeapons/HMG_M197.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
