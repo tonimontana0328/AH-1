@@ -239,19 +239,34 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
    CenterOfMass 0 1.5 -0.5
   }
   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6210F371E184877A}" {
+     AnimDoorIndex 1
+     ContextName "door_02"
+     Coverage 0.3
+     EntryPositionInfo PointInfo "{6210F37191AE44CC}" {
+      Offset 1.2422 0 1.1682
+      Angles 0 -90 0
+     }
+     ExitPositionInfo PointInfo "{6210F3719004A084}" {
+      PivotID "pilot_idle"
+     }
+     FakeDoor 1
+     AccessibilitySettings CompartmentAccessibilityContext "{6210F371B1B9E0A0}" {
+     }
+    }
+   }
    CompartmentSlots {
     PilotCompartmentSlot PilotCompartment {
+     CompartmentUniqueName "pilot"
      CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
       ParentContextList {
        "door_02"
       }
      }
-     GetOutAction SCR_GetOutAction "{6090437F83FC753E}" {
+     GetOutAction SCR_GetOutAction "{509D56667AFC4BD5}" {
       ParentContextList {
-       "door_r01_int"
-      }
-      UIInfo UIInfo "{6090437F83FC7539}" {
-       Name "#AR-UserAction_GetOut"
+       "door_02"
       }
      }
      SwitchSeatAction SCR_SwitchSeatAction "{509D56667885A8DC}" {
@@ -262,33 +277,24 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
      AdditionalActions {
       SCR_RemoveCasualtyUserAction "{5D528254D8CE5491}" {
        ParentContextList {
-        "door_02" "pilot"
+        "pilot"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E93B44D65}" {
+       ParentContextList {
+        "door_02"
        }
       }
      }
      PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
       PivotID "pilot_idle"
      }
-     SeatType 1
      DoorInfoList {
-      CompartmentDoorInfo "{50B8D5DDA17EB35D}" {
-       ContextName "door_02"
-       AnimDoorIndex 1
-       EntryPositionInfo PointInfo "{50B8D5DD213DC00C}" {
-        PivotID "stepIn_pilot"
-        Offset 1.2422 0 1.1682
-        Angles 0 -90 0
-       }
-       ExitPositionInfo PointInfo "{6090437F83FC7544}" {
-        PivotID "pilot_idle"
-       }
-      }
+      0
      }
-     AccessibilitySettings CompartmentAccessibilityContext "{6090437F83FC7546}" {
-      TraceOffset 0 0.2 0.5
-      TraceLength -0.5
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6210F37143AECFD8}" {
+      m_sDefaultOccupantPrefab "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
      }
-     BaseCoverage 0.3
     }
    }
   }
@@ -1122,6 +1128,11 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
     }
    }
    additionalActions {
+    SCR_RefuelAtSupportStationAction "{5B02B547EDCF6F99}" : "{7891F1B10FA40962}Configs/Actions/SupportStationActions/Refuel/BaseRefuel.conf" {
+     ParentContextList {
+      "fuel_cap_l"
+     }
+    }
     SCR_RepairAtSupportStationAction "{5B02B547E8F16AF2}" : "{1B886EAAAB373515}Configs/Actions/SupportStationActions/Repair/DriveTrain/Heli_Repair_DriveTrain.conf" {
      ParentContextList {
       "engine_l" "engine_r"
@@ -1130,11 +1141,6 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
     SCR_RepairAtSupportStationAction "{5E20D2E3B055B082}" : "{8C07FF07DC9C77AF}Configs/Actions/SupportStationActions/Repair/Hull/Heli_Repair_Hull.conf" {
     }
     SCR_RepairAtSupportStationAction "{5E1CB6DF63753AD9}" : "{34FDBD1B59844DAD}Configs/Actions/SupportStationActions/Repair/FuelTank/Repair_FuelTank.conf" {
-     ParentContextList {
-      "fuel_cap_l"
-     }
-    }
-    SCR_RefuelAtSupportStationAction "{5B02B547EDCF6F99}" : "{7891F1B10FA40962}Configs/Actions/SupportStationActions/Refuel/BaseRefuel.conf" {
      ParentContextList {
       "fuel_cap_l"
      }
@@ -1172,5 +1178,5 @@ Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
    AutoVariablesBind 1
   }
  }
- coords 1286.016 51 1359.295
+ coords 100.256 0 1254.925
 }

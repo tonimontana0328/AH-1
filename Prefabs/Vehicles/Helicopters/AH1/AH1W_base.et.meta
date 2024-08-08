@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F18F9FC531EBE62D}Prefabs/Vehicles/Helicopters/UH1H/AH1W_base.et"
+ Name "{F18F9FC531EBE62D}Prefabs/Vehicles/Helicopters/AH1/AH1W_base.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -10,6 +10,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
  }
 }

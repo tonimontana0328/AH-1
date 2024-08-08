@@ -118,6 +118,7 @@ GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
      MagazineTemplate "{B9E58B8BCBAFD0DB}Prefabs/Weapons/Magazines/Box_30mm_M197_250rnd_Base.et"
     }
     WeaponAnimationComponent "{6090857553819337}" {
+     Enabled 0
      AnimGraph "{5C41727F96285D4E}Assets/Weapons/MachineGuns/workspaces/M249.agr"
      AnimInstance "{74FD3811AD41ACFF}Assets/Weapons/MachineGuns/workspaces/M197_weapon.asi"
      AlwaysActive 1
@@ -125,6 +126,9 @@ GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
      AnimCommandsToBind {
       ""
      }
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     Enabled 0
     }
    }
    UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
@@ -136,5 +140,5 @@ GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
    WeaponSlotType "hmg"
   }
  }
- coords 2259.5 51.2 2160
+ coords 94.245 0 1257.196
 }
